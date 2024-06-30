@@ -17,7 +17,7 @@ const routes = {
   "ecr.jiudaoxian.top": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.libcuda.so": dockerHub,
+  "docker-staging.jiudaoxian.top": dockerHub,
 };
 
 function routeByHosts(host) {
