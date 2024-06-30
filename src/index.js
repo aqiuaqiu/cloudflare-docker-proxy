@@ -7,7 +7,7 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.jiudaoxian.top": dockerHub,
+  "docker.jiudaoxian.top": "https://registry-1.docker.io",
   "quay.jiudaoxian.top": "https://quay.io",
   "gcr.jiudaoxian.top": "https://gcr.io",
   "k8s-gcr.jiudaoxian.top": "https://k8s.gcr.io",
@@ -17,7 +17,7 @@ const routes = {
   "ecr.jiudaoxian.top": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.jiudaoxian.top": dockerHub,
+  "docker-staging.jiudaoxian.top": "https://registry-1.docker.io",
 };
 
 function routeByHosts(host) {
